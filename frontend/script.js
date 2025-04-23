@@ -29,7 +29,7 @@ async function submitData() {
 
   try {
     // Make a POST request to the backend /summarize endpoint
-    const response = await fetch('https://ai-text-summarizer-backend-bx50.onrender.com', {
+    const response = await fetch('http://localhost:3000/summarize', {
 
 
       method: 'POST',
